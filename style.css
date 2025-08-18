@@ -34,7 +34,7 @@ html *{
     background-color: transparent!important;
     box-shadow: none !important;
     padding-top: 25px;
-    color: #F8F3D9;
+    color: #FFFFF0;
 }
 
 .navbar .navbar-brand {
@@ -325,7 +325,7 @@ img.rounded {
     font-size: 1rem;
     color: #504B38;
     text-align: left;
-    background-color: #F8F3D9;
+    background-color: #FFFFF0;
     background-clip: padding-box;
     border-radius: .25rem;
     transition: transform .3s cubic-bezier(.4,0,.2,1),opacity .2s cubic-bezier(.4,0,.2,1);
@@ -459,13 +459,13 @@ footer p a:hover {
 
 .nav-pills .nav-link.active {
     background-color: #B9B28A !important; /* 원하는 색 (하늘색) */
-    color: #FBF5DE !important; /* 글자색 (필요 시) */
+    color: #FFFFF0 !important; /* 글자색 (필요 시) */
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* 부드러운 그림자 */
     border-radius: 8px; /* 필요 시 모서리 둥글게 */
 }
 /* 활성화 상태 */
 .nav-pills .nav-item .nav-link.active i.material-icons {
-    background-color: #FBF5DE; 
+    background-color: #FFFFF0; 
     color: #B9B28A; 
     margin-bottom: 6px;
 }
@@ -495,7 +495,7 @@ footer p a:hover {
   }
 
 .cv-block {
-    background-color: #F8F3D9;
+    background-color: #FFFFF0;
     border: 1px solid #e0dbc7;
     border-radius: 8px;
     padding: 16px 20px;
