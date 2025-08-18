@@ -443,44 +443,46 @@ footer p a:hover {
 
 /* 비활성화 상태 */
 .nav-pills .nav-item .nav-link i.material-icons {
-    background-color: white; /* 배경 흰색 */
-    color: #969b9b; /* 아이콘 회색 (밝은 회색톤) */
-    border-radius: 50%;
-    padding: 12px;
-    font-size: 24px;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    width: 48px;
-    height: 48px;
-    transition: background-color 0.3s, color 0.3s;
+  background-color: transparent;   /* 배경 투명 */
+  color: #504B38;                  /* 아이콘 기본 색 */
+  border-radius: 50%;
+  padding: 12px;
+  font-size: 24px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  transition: background-color 0.3s, color 0.3s;
 }
 
 .nav-pills .nav-link.active {
-    background-color: #b0c2ed !important; /* 원하는 색 (하늘색) */
-    color: white !important; /* 글자색 (필요 시) */
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* 부드러운 그림자 */
-    border-radius: 8px; /* 필요 시 모서리 둥글게 */
-}
-/* 활성화 상태 */
-.nav-pills .nav-item .nav-link.active i.material-icons {
-    background-color: white; 
-    color: #b0c2ed; 
-    margin-bottom: 6px;
+  background-color: #B9B28A !important; /* 활성화 배경 */
+  color: #FBF5DE !important;            /* 활성화 텍스트 색 */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* 그림자 */
+  border-radius: 8px;                   /* 모서리 둥글게 */
 }
 
-/* 글씨 스타일 (활성화/비활성 동일) */
+/* 활성화 상태 아이콘 */
+.nav-pills .nav-item .nav-link.active i.material-icons {
+  background-color: #FBF5DE;
+  color: #B9B28A;
+  margin-bottom: 6px;
+}
+
+/* 글씨 스타일 (활성/비활성) */
 .nav-pills .nav-item .nav-link .nav-text {
-    font-size: 10px;
-    line-height: 1.2;
-    font-weight: 600;
-    color: #555; /* 비활성 글씨 색 */
-    text-transform: uppercase;
+  font-size: 10px;
+  line-height: 1.2;
+  font-weight: 600;
+  color: #504B38;   /* 비활성 글씨 색 */
+  text-transform: uppercase;
 }
 
 .nav-pills .nav-item .nav-link.active .nav-text {
-    color: white; /* 활성화 시에도 동일 색 유지 */
+  color: white;     /* 활성화 시 텍스트 색 */
 }
+
 .cv-section {
   max-width: 860px;
   margin: 0 auto;
