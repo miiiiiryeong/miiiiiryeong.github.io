@@ -202,7 +202,7 @@
 
   </div>
 
-    <div class="cv-block">
+  <div class="cv-block">
     <h3 class="cv-title"><i class="fa fa-trophy"></i> Awards</h3>
     <hr>
       <!-- Awards -->
@@ -222,7 +222,6 @@
         <div class="cv-date">2023</div>
         <div class="cv-content">Seoul Virtual Autonomous Driving Challenge — Excellent Algorithm Award (Korea Automobile Testing & Research Institute, KATRI)</div>
       </div>
-
     </div>
 
   </div>
@@ -297,6 +296,14 @@
 
   <!-- Custom -->
   <script src="index.js"></script>
+  <script>
+    $(function () {
+      $('a[data-toggle="tab"]').on('click', function (e) {
+        e.preventDefault();
+        $(this).tab('show');
+      });
+    });
+  </script>
 </body>
 </html>
 
