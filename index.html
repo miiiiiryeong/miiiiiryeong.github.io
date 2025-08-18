@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>shyun-28</title>
+
+  <!-- Fonts & Icons -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+
+  <!-- Bootstrap Material Design CSS -->
+  <link rel="stylesheet"
+        href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css"
+        integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX"
+        crossorigin="anonymous">
+
+  <!-- Material Kit CSS (오타 수정: stylesheet) -->
+  <!--<link rel="stylesheet"
+        href="https://rawcdn.githack.com/creativetimofficial/material-kit/5a2f0f7/assets/css/material-kit.css">
+-->
+  <!-- Custom -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="profile-page">
+  <!-- Navbar -->
+   <!-- Navbar 상단 좌측, 우측 아이콘 없앰!
+  <nav class="navbar navbar-color-on-scroll navbar-transparent fixed-top navbar-expand-lg" color-on-scroll="100" id="sectionsNav">
+    <div class="container">
+      <div class="navbar-translate">
+        <a class="navbar-brand" href="/">My Resume</a>
+        <button class="navbar-toggler" type="button"
+                data-toggle="collapse" data-target="#navigation"
+                aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+
+      <div class="collapse navbar-collapse" id="navigation">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item"><a class="nav-link" href="#about"><i class="material-icons">person</i> 소개</a></li>
+          <li class="nav-item"><a class="nav-link" href="#works"><i class="material-icons">work</i> 작업</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact"><i class="material-icons">mail</i> 연락처</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+-->
+  <!-- Header -->
+  <div class="page-header header-filter" data-parallax="true"></div>
+
+  <!-- Main -->
+  <div class="main main-raised">
+    <div class="profile-content">
+      <div class="container">
+        <!-- 프로필 -->
+        <div class="row">
+          <div class="col-md-6 ml-auto mr-auto">
+            <div class="profile text-center">
+              <div class="avatar">
+                <img src="assets/profile.jpg" alt="Profile" class="img-raised rounded-circle img-fluid">
+              </div>
+              <div class="name">
+                <h3 class="title">Miryeong Park</h3>
+                <h6>M.S. Student in SPARO Lab</h6>
+                <h6>Department of Electrical and Computer Engineering
+                <h6>Inha University</h6>
+                <a href="https://github.com/shyun-28" class="btn btn-just-icon btn-link" target="_blank" rel="noopener" aria-label="GitHub">
+                  <i class="fa fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/seunghee-yun-b94abb379" class="btn btn-just-icon btn-link" target="_blank" rel="noopener" aria-label="LinkedIn">
+                  <i class="fa fa-linkedin"></i>
+                </a>
+                <a href="33shyun2833@gmail.com" class="btn btn-just-icon btn-link" aria-label="Mail">
+                  <i class="fa fa-envelope"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 소개 -->
+        <div id="about" class="description text-center">
+          <p>
+            <strong>✉️ Contact ✉️<br></strong>
+            <strong>bark9757@inha.edu</strong>
+          </p>
+        </div>
+
+        <!-- 탭 -->
+        <div class="row">
+          <div class="col-md-6 ml-auto mr-auto">
+            <div class="profile-tabs">
+              <ul class="nav nav-pills nav-pills-icons justify-content-center" role="tablist">
+                <li class="nav-item">
+                  <a class="nav-link active" href="#About Me" role="tab" data-toggle="tab">
+                    <i class="material-icons">account_circle</i> 
+                    <span class="nav-text">ABOUT ME</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#Projects" role="tab" data-toggle="tab">
+                    <i class="material-icons">sort</i>
+                    <span class="nav-text"> Projects </span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- 탭 콘텐츠 -->
+<div class="tab-content tab-space">
+  <div class="tab-pane active text-center" id="About Me">
+    <div class="cv-section text-left">
+
+      <!-- Education -->
+      <div class="cv-block">
+        <h3 class="cv-title">Education</h3>
+        <hr>
+        <div class="cv-item">
+          <div class="cv-date">2025.03 – Present</div>
+          <div class="cv-content"><strong>M.S. course</strong>, Department of Electrical and Computer Engineering, Inha University</div>
+        </div>
+        <div class="cv-item">
+          <div class="cv-date">2020.03 – 2025.02</div>
+          <div class="cv-content"><strong>B.S.</strong>, Department of Aerospace Engineering, Inha University</div>
+      </div>
+
+      <!-- Research Interests -->
+      <div class="cv-block">
+        <h3 class="cv-title">Research Interests</h3>
+        <hr>
+        <div class="cv-item"><div class="cv-content">Autonomous Exploration</div></div>
+        <div class="cv-item"><div class="cv-content">Exploration-planning</div></div>
+        <div class="cv-item"><div class="cv-content">Path Planning</div></div>
+        <div class="cv-item"><div class="cv-content">Field Robotics</div></div>
+      </div>
+
+      <!-- Experience -->
+      <div class="cv-block">
+        <h3 class="cv-title">Experience</h3>
+        <hr>
+        <div class="cv-item">
+          <div class="cv-date">2024 – Present</div>
+          <div class="cv-content"><strong>Research Intern</strong>, SPARO Lab</div>
+        </div>
+        <div class="cv-item">
+          <div class="cv-date">2023 – 2024</div>
+          <div class="cv-content"><strong>Research Assistant</strong>, Robotics & Control Lab, Kookmin University</div>
+        </div>
+        <div class="cv-item">
+          <div class="cv-date">2017 – 2019</div>
+          <div class="cv-content"><strong>Database Engineer</strong></div>
+        </div>
+      </div>
+
+      <!-- Certifications -->
+      <div class="cv-block">
+        <h3 class="cv-title">Certifications</h3>
+        <hr>
+        <div class="cv-item"><div class="cv-date">2024-09-10</div><div class="cv-content">AI-900</div></div>
+        <div class="cv-item"><div class="cv-date">2019-11-22</div><div class="cv-content">Information Processing Industrial Engineer</div></div>
+        <div class="cv-item"><div class="cv-date">2018-12-20</div><div class="cv-content">Administrative Manager Grade 3</div></div>
+        <div class="cv-item"><div class="cv-date">2018-12-11</div><div class="cv-content">Network Manager Grade 2</div></div>
+        <div class="cv-item"><div class="cv-date">2017-01-13</div><div class="cv-content">OCJP (Oracle Certified Java Programmer)</div></div>
+      </div>
+
+      <!-- Awards -->
+      <div class="cv-block">
+        <h3 class="cv-title">Awards</h3>
+        <hr>
+        <div class="cv-item"><div class="cv-date">2024</div><div class="cv-content">Kookmin University Capstone Design Idea Contest — Grand Prize</div></div>
+        <div class="cv-item"><div class="cv-date">2024</div><div class="cv-content">Kookmin Engineering FESTA Engineering Design Contest — Bronze Prize</div></div>
+      </div>
+
+      <!-- Skills -->
+      <div class="cv-block">
+        <h3 class="cv-title">Skills</h3>
+        <hr>
+        <div class="cv-item"><div class="cv-content">C, Java, Python, C++, C#, ROS, PyTorch, MATLAB, MySQL</div></div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+        <!-- 연락처 -->
+        <div id="contact" class="text-center pb-5">
+          <p class="mb-1"><i class="fa fa-envelope"></i> <a href="33shyun2833@gmail.com">bark9757@inha.edu</a></p>
+          <p class="mb-0"><i class="fa fa-globe"></i> <a href="https://shyun-28.github.io" target="_blank" rel="noopener">miiiiiryeong.github.io</a></p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer text-center">
+    <p>© <span id="year"></span> miiiiiryeong</p>
+  </footer>
+
+  <!-- Scripts: jQuery → Popper → Bootstrap → Material → index.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.min.js"
+          integrity="sha384-fA23ZRQ3G/J53mElWqVJEGJzU0sTs+SvzG8fXVWP+kJQ1lwFAOkcUOysnlKJC33U"
+          crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.min.js"
+          integrity="sha384-CauSuKpEqAFajSpkdjv3z9t8E7RlpJ1UP0lKM/+NdtSarroVKu069AlsRPKkFBz9"
+          crossorigin="anonymous"></script>
+
+  <!-- Custom -->
+  <script src="index.js"></script>
+</body>
+</html>
+
