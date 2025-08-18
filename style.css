@@ -22,7 +22,7 @@ html *{
     padding: .625rem 0;
     margin-bottom: 20px;
     color: #555;
-    background-color: #fff!important;
+    background-color: #F8F3D9!important;
     box-shadow: 0 4px 18px 0 rgba(0,0,0,.12), 0 7px 10px -5px rgba(0,0,0,.15) !important;
     z-index: 1000 !important;
     transition: all 150ms ease 0s;
@@ -34,7 +34,7 @@ html *{
     background-color: transparent!important;
     box-shadow: none !important;
     padding-top: 25px;
-    color: #fff;
+    color: #F8F3D9;
 }
 
 .navbar .navbar-brand {
@@ -172,7 +172,7 @@ a .material-icons {
     margin-top: 30px;
     margin-bottom: 25px;
     min-height: 32px;
-    color: #3C4858;
+    color: #504B38;
     font-weight: 700;
     font-family: "Roboto Slab","Times New Roman",serif;
 }
@@ -180,7 +180,8 @@ a .material-icons {
 .profile-page .description {
     margin: 1.071rem auto 0;
     max-width: 600px;
-    color: #999;
+    color: 
+    #B9B28A;
     font-weight: 300;
 }
 
@@ -322,9 +323,9 @@ img.rounded {
     min-width: 11rem !important;
     margin: .125rem 0 0;
     font-size: 1rem;
-    color: #212529;
+    color: #504B38;
     text-align: left;
-    background-color: #fff;
+    background-color: #F8F3D9;
     background-clip: padding-box;
     border-radius: .25rem;
     transition: transform .3s cubic-bezier(.4,0,.2,1),opacity .2s cubic-bezier(.4,0,.2,1);
@@ -457,8 +458,8 @@ footer p a:hover {
 }
 
 .nav-pills .nav-link.active {
-    background-color: #b0c2ed !important; /* 원하는 색 (하늘색) */
-    color: white !important; /* 글자색 (필요 시) */
+    background-color: #B9B28A !important; /* 원하는 색 (하늘색) */
+    color: #F8F3D9 !important; /* 글자색 (필요 시) */
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* 부드러운 그림자 */
     border-radius: 8px; /* 필요 시 모서리 둥글게 */
 }
