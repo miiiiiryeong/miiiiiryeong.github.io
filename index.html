@@ -67,7 +67,7 @@
                 <h3 class="title">Miryeong Park</h3>
                 <h6>
                   M.S. Student in 
-                  <a href="https://sparolab.github.io/" target="_blank" rel="noopener" style="color: inherit; text-decoration: none;">
+                  <a href="https://sparolab.github.io/" target="_blank" rel="noopener" style="text-decoration: none;">
                     SPARO Lab
                   </a>
                 </h6>
@@ -95,34 +95,35 @@
           </p>
         </div>
 
-        <!-- 탭 -->
-        <div class="row">
-          <div class="col-md-6 ml-auto mr-auto">
-            <div class="profile-tabs">
-              <ul class="nav nav-pills nav-pills-icons justify-content-center" role="tablist">
-                <li class="nav-item">
-                  <a class="nav-link active" href="#About Me" role="tab" data-toggle="tab">
-                    <i class="material-icons">account_circle</i> 
-                    <span class="nav-text">ABOUT ME</span>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#Projects" role="tab" data-toggle="tab">
-                    <i class="material-icons">sort</i>
-                    <span class="nav-text"> Projects </span>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
+<!-- 탭 -->
+<div class="row">
+  <div class="col-md-6 ml-auto mr-auto">
+    <div class="profile-tabs">
+      <ul class="nav nav-pills nav-pills-icons justify-content-center" role="tablist">
+        <li class="nav-item">
+          <a class="nav-link active" id="about-tab" data-toggle="tab" href="#tab-about" role="tab" aria-controls="tab-about" aria-selected="true">
+            <i class="material-icons">account_circle</i> 
+            <span class="nav-text">ABOUT ME</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="projects-tab" data-toggle="tab" href="#tab-projects" role="tab" aria-controls="tab-projects" aria-selected="false">
+            <i class="material-icons">sort</i>
+            <span class="nav-text">Projects</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
 
-        <!-- 탭 콘텐츠 -->
+<!-- 탭 콘텐츠 -->
 <div class="tab-content tab-space">
-  <div class="tab-pane active text-center" id="About Me">
+  <!-- ABOUT ME -->
+  <div class="tab-pane fade show active text-center" id="tab-about" role="tabpanel" aria-labelledby="about-tab">
     <div class="cv-section text-left">
 
-      <!-- Education -->
+      <!-- Education (원본 유지) -->
       <div class="cv-block">
         <h3 class="cv-title">Education</h3>
         <hr>
@@ -133,9 +134,10 @@
         <div class="cv-item">
           <div class="cv-date">2020.03 – 2025.02</div>
           <div class="cv-content"><strong>B.S.</strong>, Department of Aerospace Engineering, Inha University</div>
+        </div>
       </div>
 
-      <!-- Research Interests -->
+      <!-- Research Interests (원본 유지) -->
       <div class="cv-block">
         <h3 class="cv-title">Research Interests</h3>
         <hr>
@@ -143,118 +145,92 @@
         <div class="cv-item"><div class="cv-content">Exploration-planning</div></div>
         <div class="cv-item"><div class="cv-content">Path Planning</div></div>
         <div class="cv-item"><div class="cv-content">Field Robotics</div></div>
-      </div><!-- 탭 콘텐츠 -->
-      <div class="tab-content tab-space">
-        <!-- ABOUT ME -->
-        <div class="tab-pane active text-center" id="About Me">
-          <div class="cv-section text-left">
-      
-            <!-- Education -->
-            <div class="cv-block">
-              <h3 class="cv-title">Education</h3>
-              <hr>
-              <div class="cv-item">
-                <div class="cv-date">2025.03 – Present</div>
-                <div class="cv-content"><strong>M.S. course</strong>, Department of Electrical and Computer Engineering, Inha University</div>
-              </div>
-              <div class="cv-item">
-                <div class="cv-date">2020.03 – 2025.02</div>
-                <div class="cv-content"><strong>B.S.</strong>, Department of Aerospace Engineering, Inha University</div>
-              </div>
-            </div>
-      
-            <!-- Research Interests -->
-            <div class="cv-block">
-              <h3 class="cv-title">Research Interests</h3>
-              <hr>
-              <div class="cv-item"><div class="cv-content">Autonomous Exploration</div></div>
-              <div class="cv-item"><div class="cv-content">Exploration Planning</div></div>
-              <div class="cv-item"><div class="cv-content">Path Planning</div></div>
-              <div class="cv-item"><div class="cv-content">Field Robotics</div></div>
-            </div>
-      
-            <!-- Publications -->
-            <div class="cv-block">
-              <h3 class="cv-title">Publications</h3>
-              <hr>
-              <div class="cv-subtitle">International Conferences / Journals</div>
-              <div class="cv-item">
-                <div class="cv-date">2025</div>
-                <div class="cv-content">
-                  M. Park, I. Cho, and J. Kim, 
-                  "<strong>Title of the Paper</strong>," 
-                  in <em>Proceedings of the IEEE International Conference on Robotics and Automation (ICRA)</em>, pp. 123–128, 2025.
-                </div>
-              </div>
-              <!-- 필요시 더 추가 -->
-      
-              <div class="cv-subtitle">Domestic Conferences / Journals</div>
-              <div class="cv-item">
-                <div class="cv-date">2024</div>
-                <div class="cv-content">박미령, 김재훈, "<strong>국내 논문 제목</strong>", 한국로봇학회 학술대회, 2024.</div>
-              </div>
-              <!-- 필요시 더 추가 -->
-            </div>
-      
-            <!-- Awards -->
-            <div class="cv-block">
-              <h3 class="cv-title">Awards</h3>
-              <hr>
-              <div class="cv-item"><div class="cv-date">2024</div><div class="cv-content">Kookmin University Capstone Design Idea Contest — Grand Prize</div></div>
-              <div class="cv-item"><div class="cv-date">2024</div><div class="cv-content">Kookmin Engineering FESTA Engineering Design Contest — Bronze Prize</div></div>
-            </div>
+      </div>
 
-              <!-- PROJECTS -->
-    <div class="tab-pane text-center" id="Projects">
-      <div class="cv-section text-left">
-
-        <div class="cv-block">
-          <h3 class="cv-title">Undergraduate Projects</h3>
-          <hr>
-
-          <div class="cv-item">
-            <div class="cv-date">2021</div>
-            <div class="cv-content"><strong>INHA Amazon Web Service DeepRacer Competition</strong> — Reinforcement learning with AWS Simulator for autonomous racing and offline track driving</div>
-          </div>
-
-          <div class="cv-item">
-            <div class="cv-date">2022</div>
-            <div class="cv-content"><strong>TS Korea Transportation Safety Authority Research Project</strong> — Development of Edge-case (accident scenarios) and V2X driving scenarios with data collection</div>
-          </div>
-
-          <div class="cv-item">
-            <div class="cv-date">2022</div>
-            <div class="cv-content"><strong>Artificial Intelligence Applied Systems Project</strong> — Deep learning-based drivable area recognition using a forward-facing camera</div>
-          </div>
-
-          <div class="cv-item">
-            <div class="cv-date">2022</div>
-            <div class="cv-content"><strong>International Student Creative Automobile Competition (Autonomous Driving Division)</strong> — Path selection algorithm using Lattice planner and decision/control module implementation</div>
-          </div>
-
-          <div class="cv-item">
-            <div class="cv-date">2022</div>
-            <div class="cv-content"><strong>Aerospace Engineering Experiment Project</strong> — Research on curvature-based speed control system using ERP-42</div>
-          </div>
-
-          <div class="cv-item">
-            <div class="cv-date">2023</div>
-            <div class="cv-content"><strong>Capstone Design</strong> — Visual localization and Camera–LiDAR calibration</div>
-          </div>
-
-          <div class="cv-item">
-            <div class="cv-date">2021 – 2023</div>
-            <div class="cv-content"><strong>Inha University Multi-year Research Project</strong> — Development of an integrated system for cooperative operation between autonomous vehicles and drones</div>
-          </div>
-
-          <div class="cv-item">
-            <div class="cv-date">2023 – 2024</div>
-            <div class="cv-content"><strong>SPARO Lab Undergraduate Intern</strong></div>
-          </div>
-      
+      <!-- Publications -->
+      <div class="cv-block">
+        <h3 class="cv-title">Publications</h3>
+        <hr>
+        <div class="cv-subtitle">International Conferences / Journals</div>
+        <div class="cv-item">
+          <div class="cv-date">2025</div>
+          <div class="cv-content">
+            M. Park, I. Cho, and J. Kim, 
+            "<strong>Title of the Paper</strong>,"
+            in <em>Proceedings of the IEEE International Conference on Robotics and Automation (ICRA)</em>, pp. 123–128, 2025.
           </div>
         </div>
+
+        <div class="cv-subtitle">Domestic Conferences / Journals</div>
+        <div class="cv-item">
+          <div class="cv-date">2024</div>
+          <div class="cv-content">박미령, 김재훈, "<strong>국내 논문 제목</strong>", 한국로봇학회 학술대회, 2024.</div>
+        </div>
       </div>
+
+      <!-- Awards -->
+      <div class="cv-block">
+        <h3 class="cv-title">Awards</h3>
+        <hr>
+        <div class="cv-item"><div class="cv-date">2024</div><div class="cv-content">Kookmin University Capstone Design Idea Contest — Grand Prize</div></div>
+        <div class="cv-item"><div class="cv-date">2024</div><div class="cv-content">Kookmin Engineering FESTA Engineering Design Contest — Bronze Prize</div></div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- PROJECTS -->
+  <div class="tab-pane fade text-center" id="tab-projects" role="tabpanel" aria-labelledby="projects-tab">
+    <div class="cv-section text-left">
+      <div class="cv-block">
+        <h3 class="cv-title">Undergraduate Projects</h3>
+        <hr>
+
+        <div class="cv-item">
+          <div class="cv-date">2021</div>
+          <div class="cv-content"><strong>INHA Amazon Web Service DeepRacer Competition</strong> — Reinforcement learning with AWS Simulator for autonomous racing and offline track driving</div>
+        </div>
+
+        <div class="cv-item">
+          <div class="cv-date">2022</div>
+          <div class="cv-content"><strong>TS Korea Transportation Safety Authority Research Project</strong> — Development of Edge-case (accident scenarios) and V2X driving scenarios with data collection</div>
+        </div>
+
+        <div class="cv-item">
+          <div class="cv-date">2022</div>
+          <div class="cv-content"><strong>Artificial Intelligence Applied Systems Project</strong> — Deep learning-based drivable area recognition using a forward-facing camera</div>
+        </div>
+
+        <div class="cv-item">
+          <div class="cv-date">2022</div>
+          <div class="cv-content"><strong>International Student Creative Automobile Competition (Autonomous Driving Division)</strong> — Path selection algorithm using Lattice planner and decision/control module implementation</div>
+        </div>
+
+        <div class="cv-item">
+          <div class="cv-date">2022</div>
+          <div class="cv-content"><strong>Aerospace Engineering Experiment Project</strong> — Research on curvature-based speed control system using ERP-42</div>
+        </div>
+
+        <div class="cv-item">
+          <div class="cv-date">2023</div>
+          <div class="cv-content"><strong>Capstone Design</strong> — Visual localization and Camera–LiDAR calibration</div>
+        </div>
+
+        <div class="cv-item">
+          <div class="cv-date">2021 – 2023</div>
+          <div class="cv-content"><strong>Inha University Multi-year Research Project</strong> — Development of an integrated system for cooperative operation between autonomous vehicles and drones</div>
+        </div>
+
+        <div class="cv-item">
+          <div class="cv-date">2023 – 2024</div>
+          <div class="cv-content"><strong>SPARO Lab Undergraduate Intern</strong></div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
       
   <!-- Footer -->
   <footer class="footer text-center">
