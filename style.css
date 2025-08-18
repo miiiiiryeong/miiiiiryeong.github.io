@@ -22,7 +22,7 @@ html *{
     padding: .625rem 0;
     margin-bottom: 20px;
     color: #555;
-    background-color: #F8F3D9!important;
+    background-color: #fffefc!important;
     box-shadow: 0 4px 18px 0 rgba(0,0,0,.12), 0 7px 10px -5px rgba(0,0,0,.15) !important;
     z-index: 1000 !important;
     transition: all 150ms ease 0s;
@@ -128,7 +128,7 @@ a .material-icons {
 }
 
 .main {
-    background: #fffefc;
+    background: #fffffe;
     position: relative;
     z-index: 3;
 }
@@ -495,13 +495,13 @@ footer p a:hover {
   }
 
 .cv-block {
-  border: 1px solid #e0dbc7;         /* 대분류 테두리 */
-  border-radius: 8px;
-  padding: 16px 20px;
-  margin: 12px 0 24px;
-  margin-bottom: 24px;            /* 블록 사이 간격 */
-  background-color: #F8F3D9;      /* 배경색 */
-  color: #504B38;
+    background-color: #F8F3D9;
+    border: 1px solid #e0dbc7;
+    border-radius: 8px;
+    padding: 16px 20px;
+    margin: 24px auto;        /* 블록 사이 간격 확보 */
+    max-width: 800px;         /* 블록 폭 제한 → 좌우로 배경(#fffefc)이 보임 */
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05); /* 카드 느낌 */
 }
 
 body, .main, .cv-content, .cv-date, .cv-title, .cv-subtitle,
