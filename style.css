@@ -494,7 +494,7 @@ footer p a:hover {
   padding: 16px 20px;
   margin: 12px 0 24px;
   margin-bottom: 24px;            /* 블록 사이 간격 */
-  background-color: #f4f4e5;      /* 배경색 */
+  background-color: #FBF5DE;      /* 배경색 */
 }
 
 .cv-title {
@@ -524,7 +524,14 @@ footer p a:hover {
 .cv-content {
   flex: 1;
   color: #333;
+  white-space: normal;
+  word-wrap: break-word;
+  overflow-wrap: anywhere;
 }
+
+.cv-content a {
+    word-break: break-all;   /* 링크 중간에서도 줄바꿈 */
+  }
 
 .cv-section .cv-block:first-child {
   margin-top: 0; /* 첫 번째 블록은 위 여백 제거 */
