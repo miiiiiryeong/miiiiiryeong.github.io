@@ -458,14 +458,14 @@ footer p a:hover {
 
 .nav-pills .nav-link.active {
   background-color: #B9B28A !important; /* 활성화 배경 */
-  color: #FBF5DE !important;            /* 활성화 텍스트 색 */
+  color: #FFFFED !important;            /* 활성화 텍스트 색 */
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* 그림자 */
   border-radius: 8px;                   /* 모서리 둥글게 */
 }
 
 /* 활성화 상태 아이콘 */
 .nav-pills .nav-item .nav-link.active i.material-icons {
-  background-color: #FBF5DE;
+  background-color: #FFFFED;
   color: #B9B28A;
   margin-bottom: 6px;
 }
